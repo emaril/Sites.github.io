@@ -1,0 +1,35 @@
+body {
+  background-image: url('https://www.expenseanywhere.com/wp-content/uploads/2016/09/website-backgrounds-E280AB1E280AC-E280ABE280AC.jpg');
+ background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+.flou {
+  /* The image used */
+  background-image: url("im1.jpg");
+
+  /* Add the blur effect 
+  filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.minia{
+	border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+
+}
+
+.minia:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
